@@ -17,8 +17,10 @@ that suggests recycling instructions based on either a waste image or a textual 
 ## 📁 Project Structure
 
 ```
-├── realwaste_data/                     # RealWaste dataset (images)
+├── realwaste_data/                     # RealWaste dataset (images) 
 │   └── realwaste-main/RealWaste/      # 9 waste categories
+https://archive.ics.uci.edu/dataset/908/realwaste
+
 ├── waste_descriptions.csv             # Text-based descriptions (classification)
 ├── waste_policy_documents.json        # Reference policy documents (for RAG)
 ├── notebook.ipynb                     # Main notebook (all steps)
@@ -52,6 +54,9 @@ cd recycling-assistant
 from google.colab import drive
 drive.mount('/content/drive')
 ```
+
+### 4. Waste Data
+https://archive.ics.uci.edu/dataset/908/realwaste
 
 ---
 
